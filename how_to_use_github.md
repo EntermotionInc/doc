@@ -25,12 +25,14 @@
   
 ### 基本的な操作コマンド
 
-* git clone （svn で言うと、svn checkout）
-* git st （= git status。svn で言うと svn status）
-* git co （= git checkout。svn で言うと svn update）
-* git ci （= git commit。svn で言うと svn commit）
-* git di （= git diff --color-words。svn で言うと svn diff）
-
+* git clone （=~ svn checkout）
+* git st （= git status。=~ svn status）
+* git add（ステージ領域へファイルを追加。=~ svn add だけど、add するのは新規ファイルだけじゃない。）
+* git ci （= git commit。svn commit は git add と git ci を合わせたもの）
+* git di （= git diff --color-words。=~ svn diff）
+* git lg （= git log --graph --pretty=oneline ..(ry。=~ svn log）
+* git pull （svn には相当するコマンドは無い。リモートリポジトリの変更をローカルリポジトリに取り込んでマージする）
+* git push （svn には相当するコマンドは無い。ローカルリポジトリの変更をリモートリポジトリに取り込んでマージする）
 
 ## github の使い方（社内向け）
 
