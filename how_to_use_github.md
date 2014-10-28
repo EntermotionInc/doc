@@ -33,7 +33,10 @@
 * git lg （= git log --graph --pretty=oneline ..(ry。=~ svn log）
 * git pull （svn には相当するコマンドは無い。リモートリポジトリの変更をローカルリポジトリに取り込んでマージする）
 * git push （svn には相当するコマンドは無い。ローカルリポジトリの変更をリモートリポジトリに取り込んでマージする）
-* git br __ブランチの使い方について書く__
+* git br （= git branch。ブランチの一覧表示）
+* git co -b hoge（= git checkout -b。hogeブランチを作って、hogeブランチに切り替える）
+* git co master（= git checkout master。masterブランチに切り替える）
+* git merge --no-ff hoge （hogeブランチから今いるブランチにマージする）
 
 ## github の使い方（社内向け）
 
