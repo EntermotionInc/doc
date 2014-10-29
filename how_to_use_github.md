@@ -62,3 +62,5 @@
 4. 適当にキリのよいところで定期的にリモートリポジトリにpushする。（pushするとGitHub側のリモートリポジトリのブランチも更新される。）
 4. masterへpull requestしたければGitHub上で「Compare & pull request」をクリックする。
 5. pr（pull request）がmergeされたら完了。rejectされたら4.に戻って修正するなり対応する。
+
+作業例 https://github.com/EntermotionInc/doc/blob/master/worklog1.md
