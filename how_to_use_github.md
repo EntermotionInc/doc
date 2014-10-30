@@ -63,4 +63,5 @@
 4. masterへpull requestしたければGitHub上で「Compare & pull request」をクリックする。
 5. pr（pull request）がmergeされたら完了。rejectされたら4.に戻って修正するなり対応する。
 
-作業例 https://github.com/EntermotionInc/doc/blob/master/worklog1.md
+* 作業例 https://github.com/EntermotionInc/doc/blob/master/worklog1.md
+* テスト用リポジトリ https://github.com/EntermotionInc/github_flow_test
