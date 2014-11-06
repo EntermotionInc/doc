@@ -21,6 +21,8 @@
   ci = commit
   di = diff --color-words
   br = branch
+[merge]
+	ff = false
 ```
   
 ### 基本的な操作コマンド
