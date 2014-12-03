@@ -61,18 +61,6 @@
 1. 7.のコメントへの返信として、修正した旨連絡する。
 2. 7に進む
 
-### GitHub Flow式（Forkしないやり方）
-1. 案件にアサインされたら、GitHub上のマスターとなるリポジトリをローカル環境にcloneする。
-2. ローカル環境上でトピックブランチを作る（例：dev-login_point）。
-3. GitHub側のリモートリポジトリにも同名のブランチを作成する。
-3. ローカル環境上で、修正->テスト->コミットという流れで開発する。
-4. 適当にキリのよいところで定期的にリモートリポジトリにpushする。（pushするとGitHub側のリモートリポジトリのブランチも更新される。）
-4. masterへpull requestしたければGitHub上で「Compare & pull request」をクリックする。
-5. pr（pull request）がmergeされたら完了。rejectされたら4.に戻って修正するなり対応する。
-
-* 作業例 https://github.com/EntermotionInc/doc/blob/master/worklog1.md
-* テスト用リポジトリ https://github.com/EntermotionInc/github_flow_test
-
 ## ブランチについて
 
 ブランチを用いた開発では、以下のようなブランチで作業を進めることになります。
